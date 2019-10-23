@@ -75,7 +75,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #ffffff;
 }
 
 .active {
@@ -84,7 +84,7 @@ li a:hover:not(.active) {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffffff;
 }
 
 .topnav a {
@@ -102,6 +102,6 @@ li a:hover:not(.active) {
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #4aaaa5;
     color: white;
 }
