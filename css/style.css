@@ -103,8 +103,7 @@ li a:hover:not(.active) {
     font-size: smaller;
     display: block;
     margin-top: 10px;
-    border-top-color: #4aaaa5;
-    border-top-width: 10px;
+    border-top: 10px solid #4aaaa5;
 }
 
 .background-img {}
