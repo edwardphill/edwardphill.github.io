@@ -30,7 +30,7 @@ h2 {
 }
 
 a {
-    color: #d21034;
+    color: #4aaaa5;
 }
 
 .container {
@@ -63,6 +63,8 @@ li a:hover:not(.active) {
 .active {
     background-color: #4aaaa5;
     margin-left: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
 }
 
 .topnav {
