@@ -33,6 +33,10 @@ a {
     color: #4aaaa5;
 }
 
+input {
+    width: 100%;
+}
+
 .container {
     width: 100%;
     background: #ffffff;
