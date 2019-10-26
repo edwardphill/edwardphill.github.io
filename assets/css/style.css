@@ -35,12 +35,16 @@ a {
 }
 
 input {
-    width: 75%;
+    width: 25%;
+}
+
+textarea {
+    width: 70%;
 }
 
 section {
     margin-top: 30px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .container {
