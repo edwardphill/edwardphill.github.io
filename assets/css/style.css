@@ -7,8 +7,9 @@ body {
     color: #777777;
     background: #ffffff;
     margin: center;
-    width: 960px;
-    background-image: url();
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -37,25 +38,29 @@ input {
     width: 100%;
 }
 
+section {
+    margin-top: 30px;
+}
+
 .container {
     width: 100%;
-    background: #ffffff;
-    margin-left: 50px;
-    background-color: #777777;
+    background-image: url("../images/silver_scales.png");
+    height: 1000px;
 }
 
-#main-bio, #bio-image {
-    float: left;
-}
-
-#main-bio {
+#main {
     width: 70%;
+    background-color: white;
+    margin: auto;
+    width: 968px;
+    border: 1px solid black;
 }
 
-#bio-image {
+#image {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+    float: left;
 }
 
 li a:hover:not(.active) {
@@ -68,7 +73,6 @@ li a:hover:not(.active) {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
     margin-right: auto;
-    flex: right;
 }
 
 .topnav {
@@ -108,7 +112,6 @@ li a:hover:not(.active) {
     text-align: center;
     font-size: smaller;
     display: block;
-    margin-top: 10px;
     border-top: 10px solid #4aaaa5;
 }
 
