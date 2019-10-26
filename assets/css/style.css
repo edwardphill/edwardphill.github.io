@@ -8,7 +8,7 @@ body {
     background: #ffffff;
     margin: center;
     width: 960px;
-    background-image: url("assets/images/ehimg.jpg");
+    background-image: url();
 }
 
 h1 {
@@ -44,16 +44,12 @@ input {
     background-color: #777777;
 }
 
-#main-bio, #contact-info, #bio-image {
+#main-bio, #bio-image {
     float: left;
 }
 
 #main-bio {
     width: 70%;
-}
-
-#contact-info {
-    width: 30%;
 }
 
 #bio-image {
@@ -115,8 +111,6 @@ li a:hover:not(.active) {
     margin-top: 10px;
     border-top: 10px solid #4aaaa5;
 }
-
-.background-img {}
 
 .column {
     float: left;
