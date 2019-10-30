@@ -48,9 +48,10 @@ section {
 }
 
 .container {
+    padding: 5%;
     width: 100%;
     background-image: url("../images/silver_scales.png");
-    height: 2000px;
+    height: 100%;
 }
 
 .hr {
@@ -80,7 +81,6 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4aaaa5;
-    margin-left: auto;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
     margin-right: auto;
