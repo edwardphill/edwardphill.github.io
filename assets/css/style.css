@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 150%;
     color: #777777;
@@ -17,16 +17,16 @@ h1 {
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #4aaaa5;
+    color: #98ECC3;
     text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: Helvetica, Arial, sans-serif;
     background: #ffffff;
 }
 
 h2 {
     font-size: 24px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #98ECC3;
     background: #ffffff;
 }
 
@@ -51,8 +51,8 @@ button {
     margin: 10px;
     padding: 10px;
     color: #ffffff;
-    background-color: #4aaaa5;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #98ECC3;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -88,24 +88,23 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4aaaa5;
-    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #0B2D3D;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 24px;
     margin-right: auto;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #0B2D3D;
     width: 100%;
     display: flex;
-    border-bottom: 2px solid lightgray;
     position: fixed;
 }
 
 .topnav a {
     float: left;
-    color: #777777;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -119,7 +118,7 @@ li a:hover:not(.active) {
 }
 
 .topnav a.active {
-    background-color: #4aaaa5;
+    background-color: #0B2D3D;
     color: white;
 }
 
@@ -128,29 +127,22 @@ li a:hover:not(.active) {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #666666;
+    background-color: #0B2D3D;
     color: white;
     text-align: center;
     font-size: smaller;
     display: block;
-    border-top: 10px solid #4aaaa5;
 }
 
 .column {
-    float: left;
-    width: 40%;
+    display: inline-block;
+    width: 25%;
     padding: 5px;
     height: auto;
     margin: 2%;
 }
 
 /* Clearfix (clear floats) */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 @media screen and (max-width: 980px) {
     #main {
