@@ -138,8 +138,10 @@ li a:hover:not(.active) {
 
 .column {
     float: left;
-    width: 45%;
+    width: 40%;
     padding: 5px;
+    height: auto;
+    margin: 2%;
 }
 
 /* Clearfix (clear floats) */
