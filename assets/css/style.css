@@ -59,7 +59,6 @@ button {
     padding-top: 10%;
     width: 100%;
     background-color: #ddd;
-    height: 100%;
 }
 
 .hr {
@@ -74,6 +73,8 @@ button {
     margin: auto;
     width: 968px;
     border: 2px solid lightgray;
+    padding-bottom: 5%;
+    margin-bottom: 5px;
 }
 
 #image {
@@ -132,6 +133,8 @@ li a:hover:not(.active) {
     text-align: center;
     font-size: smaller;
     display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .column {
