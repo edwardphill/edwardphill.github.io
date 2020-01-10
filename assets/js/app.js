@@ -3,6 +3,7 @@ $("#work").click(function() {
   $(".pastWork").css("display", "block");
   $(".contactMe").css("display", "none");
   $("#projects").css("display", "block");
+  $("#currently").css("display", "none");
 });
 
 $("#contact").click(function() {
