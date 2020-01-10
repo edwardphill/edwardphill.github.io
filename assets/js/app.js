@@ -20,6 +20,6 @@ $("#backnav").click(function() {
   $(".pastWork").css("display", "none");
   $(".contactMe").css("display", "none");
   $("#projects").css("display", "none");
-  $("#oneLiner").css("display", "block");
-  $("#currently").css("display", "block");
+  $("#oneLiner").css("display", "inline");
+  $("#currently").css("display", "inline");
 });
