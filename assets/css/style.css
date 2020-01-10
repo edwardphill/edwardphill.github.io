@@ -35,7 +35,7 @@ h2 {
 }
 
 a {
-    color: #4aaaa5;
+    color: white;
 }
 
 input {
@@ -49,14 +49,6 @@ textarea {
 section {
     margin-top: 30px;
     padding: 10px;
-}
-
-button {
-    margin: 10px;
-    padding: 10px;
-    color: #ffffff;
-    background-color: #202124;
-    font-family: Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -78,13 +70,6 @@ button {
     width: 968px;
     padding-bottom: 5%;
     margin-bottom: 5px;
-}
-
-#image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-    float: left;
 }
 
 li a:hover:not(.active) {
@@ -110,7 +95,7 @@ li a:hover:not(.active) {
     float: left;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
     font-size: 17px;
     border: #cccccc;
