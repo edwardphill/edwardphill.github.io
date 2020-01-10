@@ -11,5 +11,5 @@ $("#contact").click(function() {
   $(".pastWork").css("display", "none");
   $(".contactMe").css("display", "block");
   $("#projects").css("display", "none");
-  $(".oneLiner").css("display", "none");
+  $("#oneLiner").css("display", "none");
 });

@@ -143,20 +143,32 @@ li a:hover:not(.active) {
 
 /* Clearfix (clear floats) */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 10000px) {
     #main {
         width: 700px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     #main {
         width: 600px;
     }
 }
 
+@media screen and (max-width: 768px) {
+    #main {
+        width: 500px;
+    }
+}
+
 @media screen and (max-width: 640px) {
     #main {
-        width: 400px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #main {
+        width: 200px;
     }
 }
