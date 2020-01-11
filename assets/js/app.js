@@ -5,6 +5,7 @@ $("#work").click(function() {
   $("#projects").css("display", "block");
   $("#oneLiner").css("display", "block");
   $("#currently").css("display", "none");
+  $("#press").css("display", "block");
 });
 
 $("#contact").click(function() {
