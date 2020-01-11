@@ -14,6 +14,7 @@ $("#contact").click(function() {
   $(".contactMe").css("display", "block");
   $("#projects").css("display", "none");
   $("#oneLiner").css("display", "none");
+  $("#press").css("display", "none");
 });
 
 $("#backnav").click(function() {
@@ -23,4 +24,5 @@ $("#backnav").click(function() {
   $("#projects").css("display", "none");
   $("#oneLiner").css("display", "inline");
   $("#currently").css("display", "inline");
+  $("#press").css("display", "none");
 });
