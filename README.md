@@ -1,7 +1,8 @@
 # edwardphill.github.io
 
 ## Project Overview
-- useage of portfolio
+
+![GIF of portfolio](https://media.giphy.com/media/ZeRPnX0VgE7wtpCgaq/giphy.gif)
 
 ## Technology Used
 - HTML
