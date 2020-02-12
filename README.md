@@ -1,2 +1,10 @@
 # edwardphill.github.io
-This is my personal portfolio of website development. 
+
+## Project Overview
+- useage of portfolio
+
+## Technology Used
+- HTML
+- CSS 
+- Bootstrap
+- JavaScript
